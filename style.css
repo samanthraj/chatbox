@@ -1,0 +1,180 @@
+*{
+    padding:0px;
+  
+}
+body{
+    /* background-color: #171717; */
+    background-image: url("peakpx.jpg");
+}
+.cont{
+    display: flex;
+    height:97vh;
+    width:97vw;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+/* cont is used to use flex for chat box specifically */
+.chatroom{
+    border-radius: 10px;
+     background-color:#212121 ; 
+    
+    height:80vh;
+    width:70vh;
+    border: 0px solid white;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.chatroom h1{
+    text-align: center;
+    color: white;
+}
+.chatroom input{
+    color:#878787;
+    background-color: #212121;
+    border:1px solid rgb(119, 116, 116);
+    border-radius: 5px;
+    height:30px;
+    width:60%;
+}
+.chatroom button{
+    height:30px;
+    width:100px;
+    border-radius: 5px;
+    border:0px;
+    background-color: #0ED8A4;
+    position: relative;
+    left: 20px;
+}
+.chatroom .inputbox{
+
+    
+   
+    border-top:0.2px solid #878787;
+   
+
+
+
+}
+.inputbox #messege{
+    margin: 10px;
+
+}
+.chatroom .msg{
+    border-top: 0.2px solid #878787;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    height:65%;
+    
+
+
+}
+.msg p span{
+    color: white;
+    width:fit-content;
+    background-color: #007AFF;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+
+}
+/* .msg p{
+    
+   } */
+ .sender{
+    display:flex;
+    background-color: #0ED8A4;
+    border-radius: 5px;
+    padding: 5px;
+    align-self: end;
+
+   margin-right: 10px;
+   width: fit-content;
+}
+.user{
+    display:flex;
+    background-color: #0ED8A4;
+    border-radius: 5px;
+    padding: 5px;
+    align-self: end;
+    font-size: 10px;
+   margin-right: 10px;
+   width: fit-content;
+}
+ 
+/* login.php */
+::-webkit-scrollbar{
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    width:5px;
+background:linear-gradient(#2A6A5A,#759dc9);
+border-radius: 5px;
+
+
+}
+::-webkit-scrollbar-thumb{
+width:2px;
+background-color: #2F2F2F;
+border-radius: 5px;
+
+}
+.chatroom a{
+    color:white;
+    position:relative;
+    top:120px;
+    right:40px;
+}
+#emojibutton{
+position: relative;
+right:110px;
+top:6px;
+font-size: 20px;
+   color: yellow;
+}
+.emojilist{
+    position: relative;
+    bottom:400px;
+    left:700px;
+  bottom:400px;
+    height:300px;
+    width: 270px;
+    border-radius: 20px;
+    background-color: white;
+    display:flex;
+    overflow: auto;
+   
+
+
+}
+.active{
+    display: none;
+}
+li{
+    list-style: none;
+    
+    margin: 10px;
+  
+
+    
+}
+ul{
+    
+   
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+ 
+}
+.test{
+    height:20px;
+    width: 20px;
+    background-color: black;
+}
